@@ -13,7 +13,10 @@ class node{
     }
 };
 
+//Stack class
+class Stack{
 
+}
 
 int main(){
 
