@@ -3,7 +3,7 @@
 using namespace std;
 
 //Node class representing a single node in the linked list
-class node{
+class Node{
     public:
     int data;
     Node *next;
@@ -20,7 +20,7 @@ class Stack{
 
     public:
     Stack(){
-        top + NULL; //Initialize the stack with a null top pointer
+        top = NULL; //Initialize the stack with a null top pointer
     }
     //Push operation: Insert an element onto the top of the stack
     int push(int value){
@@ -76,13 +76,12 @@ int main(){
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-    }
 
-    switch (choice){
+         switch (choice){
         case 1:
         cout << "Enter the value to push: ";
         cin >> value;
-        stack push(value);
+        stack.push(value);
         break;
         case 2:
         if (!stack.isEmpty())
@@ -101,7 +100,7 @@ int main(){
         else{
                 cout << "Stack is empty. No ton value." << endl;
         }
-        braek;
+        break;
         case 4:
             cout << "Exiting program." << endl;
             break;
@@ -110,6 +109,8 @@ int main(){
             break;
     }
     cout << endl;
-}
+    }
 return 0;
+
+   
 }
