@@ -90,7 +90,8 @@ int main(){
             stack.pop();
         }
         else{
-            
+            cout << "Stack is empty. Cannot pop." << endl;
         }
+        break;
     }
 }
