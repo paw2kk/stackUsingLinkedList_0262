@@ -15,7 +15,15 @@ class node{
 
 //Stack class
 class Stack{
+    private:
+        Node *top; //Pointer to the top node of the satck
 
+    public:
+    Stack(){
+        top + NULL; //Initialize the stack with a null top pointer
+    }
+
+    
 }
 
 int main(){
