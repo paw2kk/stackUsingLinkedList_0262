@@ -99,7 +99,8 @@ int main(){
             stack.peek();
         }
         else{
-                
+                cout << "Stack is empty. No ton value." << endl;
         }
+        braek;
     }
 }
